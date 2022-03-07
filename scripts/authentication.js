@@ -20,7 +20,7 @@ var uiConfig = {
             window.location.assign('main.html');
 
           })
-          .catch(function(error)){
+          .catch(function(error){
             console.log(error);
           }
 
@@ -54,3 +54,4 @@ var uiConfig = {
   };
 
   ui.start('#firebaseui-auth-container', uiConfig);
+  
