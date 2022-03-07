@@ -22,7 +22,7 @@ var uiConfig = {
           })
           .catch(function(error){
             console.log(error);
-          }
+          })
 
         }else{
           return true;
