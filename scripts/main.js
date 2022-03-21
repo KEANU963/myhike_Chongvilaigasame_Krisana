@@ -28,7 +28,7 @@ function insertName() {
                     let userName = userDoc.data().name;
                     console.log(userName);
                     $('#name-goes-here').text(userName); //jQuery way
-                    // document.getElementById('#name-goes-here').innerText=userName; ????????
+                    // document.getElementById('#name-goes-here').innerText=userName; //javascript way
                 })
             
             }
